@@ -17,5 +17,7 @@ module.exports = {
       { allowConstantExport: true },
     ],
     "no-unused-vars": "off",
+    'server.hmr.overlay':false
+
   },
 }
