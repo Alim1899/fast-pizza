@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-const config =  {
+// eslint-disable-next-line
+export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     fontFamily: {
@@ -17,4 +18,3 @@ const config =  {
   },
   plugins: [],
 };
-export default config
