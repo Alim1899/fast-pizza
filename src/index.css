@@ -1,10 +1,23 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @layer theme, base, components, utilities;
 
 @layer components {
   .input {
     @apply w-full rounded-full border border-stone-400 px-4 py-2 text-sm transition-all duration-300 placeholder:text-stone-400 focus:border-none focus:ring focus:ring-yellow-400 focus:outline-none md:px-6 md:py-3;
   }
+}
+@theme {
+  --font-sans: "Roboto Mono", "sans-serif"; 
+}
+@theme {
+  --color-pizza: #123456; 
+  --font-size: 20rem; 
+}
+@theme {
+ --screen:10dvh;
 }
 
 /* https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje */

@@ -1,17 +1,17 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./features/ui/Home";
+import Home from "./ui/Home";
 import Menu from "./features/menu/Menu";
 import {
   menuLoader,
   orderLoader,
   action,
-} from "./features/services/apiRestaurant";
+} from "./services/apiRestaurant";
 import Cart from "./features/cart/Cart";
 import CreateOrder from "./features/order/CreateOrder";
 import Order from "./features/order/Order";
 import "./index.css";
-import Error from "./features/ui/Error";
-import AppLayout from "./features/ui/AppLayout";
+import Error from "./ui/Error";
+import AppLayout from "./ui/AppLayout";
 const router = createBrowserRouter(
   [
     {
